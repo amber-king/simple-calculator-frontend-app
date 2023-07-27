@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
-import { evaluate } from 'mathjs';
-import './calculator.css';
+import { evaluate } from 'mathjs'; // math libraries added to safely excute calculating functionality
+import './calculator.css'; // css features 
 
 const Calculator = () => {
-  const [displayValue, setDisplayValue] = useState('');
+  const [displayValue, setDisplayValue] = useState(''); // state to help with calculator results display
 
+  // handle button change as button are clicked - set to prevs value + added/ input value
   const handleButtonClick = (value) => {
     setDisplayValue((prevDisplay) => prevDisplay + value);
   };
 
+  // calculates the number values placed in via evaluate -mathjs libraries via a try - catch work flow
   const handleCalculate = () => {
     try {
       const result = evaluate(displayValue);
@@ -18,10 +20,12 @@ const Calculator = () => {
     }
   };
 
+  // handle for functionality with clear button - when user wants to input new data, this will reset the calculator
   const handleClear = () => {
     setDisplayValue('');
   };
 
+  // format of the calcultor to match a traditonal calculator
   return (
     <div className="calculator">
       <input type="text" className="screen" value={displayValue} readOnly />
