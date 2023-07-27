@@ -1,3 +1,25 @@
+# Simple Calculator 🧮
+
+### <b> Netlify Frontend Deploy Link </b> 👉🏾 https://simple-calculator-frontend-app-by-ak.netlify.app/
+
+<hr>
+
+## Ready to get calculating? 🤔
+
+Enjoy this simple but lively animal print calculator app by Amber King<i>(that's me 😁👋🏾)</i>
+
+<hr>
+
+This <b>React</b> application was made as practice to help with my frontend skills and also to learn some new ways to build a calculator.
+<br></br>
+My first time using mathjs libraried, would defintly love to explore more of its usage in other future projects. 
+<br></br>
+
+I hope you enjoy this calculator as much as I enjoyed practicing with it and building it.😁✌🏾
+<hr>
+<br></br>
+<i>👇🏾 Below is Standard React Setup readMe information</i>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
