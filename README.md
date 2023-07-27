@@ -1,4 +1,5 @@
 # Simple Calculator 🧮
+![Masterhead](https://st2.depositphotos.com/3611953/47946/i/950/depositphotos_479464498-stock-photo-bengal-cat-counts-calculator-manage.jpg)
 
 ### <b> Netlify Frontend Deploy Link </b> 👉🏾 https://simple-calculator-frontend-app-by-ak.netlify.app/
 
